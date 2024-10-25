@@ -12,7 +12,7 @@ const renderAllPlayers = async () => {
     const players = playerData.data.players;
 
     // grab list element from HTML 
-    const playerNameList = document.createElement(`ol`);
+    const playerNameList = document.createElement(`ul`);
 
     // loop through the player data 
     players.forEach(player => {

@@ -1,3 +1,76 @@
+html {
+  width: 100%;
+  background-image: url(images/10223960.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  filter: brightness(0.9);
+}
+
+body {
+  display: flex;
+  background-color: #ffffffb4;
+  box-shadow: 0 0 12px -2px black;
+  padding: 0;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.8em;
+  color: #555;
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
-  max-width: 500px;
+  border-radius: 50%;
+  max-width: 300px;
+  margin: 10px auto;
+  display: block;
+}
+
+ul li {
+  background-image: url('https://www.citypng.com/public/uploads/preview/black-outline-animal-paw-transparent-background-735811696684663ymgqp8spwx.png');
+  background-size: 16px 16px; 
+  background-repeat: no-repeat;
+  background-position: 0 5px; 
+  padding-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
